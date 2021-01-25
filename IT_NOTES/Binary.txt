@@ -1,0 +1,71 @@
+
+Binary.txt  -> a normal text file
+     *.exe ->  a executables (program)
+     *.java -> java text files
+     *.class  -> java bytecode
+
+Binary
+- binary is used as its a number system
+	that only has 1 & 0's.
+- electronics can convert that to on 
+	and off.
+- we also call binary base-2
+- out normal number system is called
+	the decimal and is a base-10
+	- 0123456789
+		0
+		1
+		2
+		3
+		4
+		5
+		6
+		7
+		8
+		9
+	       10
+
+	so the start of binary works like this
+		8421
+0	=    	0000
+1       =    	0001
+2       =    	0010
+3	= 	0011
+4	=	0100
+5	= 	0101
+6	=       0110
+7	=	0111
+8	=	1000
+.....	
+15 	=	1111
+16	=      10000 
+
+We use the 2^* to look at how big number
+can be represented by an amount of bits.
+-> a single one or zero is a bit.
+
+so in 32 bit -> 00000000000000000000000000000000
+
+2^0	= 	1
+2^1	=	2
+2^2	=	4
+2^3	=	8
+2^4	=	16
+2^5	=	32
+2^6	=	64
+2^7	=	128
+2^8	=	256
+2^9	=	512
+2^10	=	1024
+
+2^32    = 	 429467296 
+
+Example 2
+	10011001
+	
+
+
+
+
+		
+
