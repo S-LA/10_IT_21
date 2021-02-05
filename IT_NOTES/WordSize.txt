@@ -1,0 +1,14 @@
+WORDSIZE
+
+-> aka. wordlength
+-> The number of bits that a computer
+   (processor) can work with at a time.
+-> The groups that a processor can
+    use at a time are called words.
+-> We usually use 64bit or 32bit.
+-> 
+
+
+
+
+
