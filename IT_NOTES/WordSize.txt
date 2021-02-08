@@ -6,7 +6,24 @@ WORDSIZE
 -> The groups that a processor can
     use at a time are called words.
 -> We usually use 64bit or 32bit.
--> 
+-> The greater a wordsize is the more possible
+    combinations can be stored.
+-> So to check the amount of combinations we use:
+	2^x = combinations
+   or with 4 bits  ----->   2^4 = 16
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

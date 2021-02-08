@@ -1,0 +1,26 @@
+Data Storage
+
+-> The first most important thing is the 
+	normal scienctific notation is different	
+	in CS.
+-> kilo in science is 1000 (10^3) in CS its 2^10 bytes
+	or 1024 bytes.
+
+-> The whole conversion system is:	|    storage is in Bytes(B)
+	8 bit 	   = 1 bytes		|    dataspeed is in bits(b)
+	1024 bytes = 1 Kilobyte		|
+	1024 x 1024 = 1 Megabytes	|
+
+-> And then this goes up to Exabytes which represent
+	2^60 bytes.
+
+-> 
+
+
+
+
+
+
+
+
+
