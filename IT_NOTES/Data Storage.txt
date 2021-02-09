@@ -8,13 +8,107 @@ Data Storage
 
 -> The whole conversion system is:	|    storage is in Bytes(B)
 	8 bit 	   = 1 bytes		|    dataspeed is in bits(b)
-	1024 bytes = 1 Kilobyte		|
-	1024 x 1024 = 1 Megabytes	|
+	1024 bytes = 1 Kilobyte = 2^10	|
+	1024 x 1024 = 1 Megabytes=2^20	|
 
 -> And then this goes up to Exabytes which represent
 	2^60 bytes.
+-> In cases, people incorectly represent a MB by multiplying 
+    	1024 x 1000 = 1024 000 bytes when it should be 
+	1024 x 1024 = 1048 576 bytes
 
--> 
+Digital Representation of Numbers
+
+-> Numbers are infinite, there is no restriction to how big
+	a number can be but computers only have so much space so
+	we are limited to how big the numbers can be in a calculation.
+-> An integer does not have decimal parts, they can only be positive or
+	negative.
+-> This means a bit is wasted to allocate the sign. When no sign is
+	saved the number can be slightly bigger.	
+-> The formula to find out the biggest number that can be stored by an
+	unsigned amount of bits is (2^n)-1  [where n is the number of
+	bits]
+
+-> so for 4 bits 
+	(2^4) - 1 = 15
+-> and 8 bits
+	(2^8) - 1 = 255
+-> The lowest number will be 0.
+
+------------------------------------------------------------------
+Signed Intergers
+------------------------------------------------------------------
+-> To show negative numbers we use the first bit in a array of bits
+	to represent the sign. (0=+ &  1=-)
+-> The formula to find the maximum number is ((2^(n-1))-1)
+	
+-> so for 4 signed bits
+	(2^(4-1)-1) = 7
+-> for 8 bits 	
+	(2^(8-1)-1) =127
+
+-> The minimum value is then calculated using (-2^(n-1))
+-> for 4 bits 
+	(-2^(4-1)) = -8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
