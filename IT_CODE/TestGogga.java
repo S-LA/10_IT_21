@@ -9,6 +9,7 @@ public class TestGogga{
       int initPos = 9;
       
       bug.setPosition(9,9);
+      
       bug.setDirection(1);
       bug.move();
       
