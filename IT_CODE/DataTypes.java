@@ -67,12 +67,27 @@ public class DataTypes
       // +/-3.4x10^(+/-38), they are not really used in 
       // java, double is used more often.
       // as doubles can go up to 1.7x10^308
+      // when using floats we need to tell the compiler that we are.
       
-      for(float i = 0.0f; i > -1.0f;i++){
-         if(!i%1000){
-            System.out.println(i);
-         }
-      } 
+      float decimal = 0.543f;
+      System.out.println(decimal);
+      
+      // so in java the better way to use decimals is the double
+      
+      double decimalTwo = 5E4;
+      // e replaces *10^x so its scientific notation.
+      System.out.println(decimalTwo);
+      
+      double decimalThree = 1.7e309;
+      System.out.println(decimalThree);
+      
+      
+      
+      
+      
+      
+      
+       
        
       
       
