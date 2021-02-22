@@ -78,7 +78,7 @@ public class DataTypes
       // e replaces *10^x so its scientific notation.
       System.out.println(decimalTwo);
       
-      double decimalThree = 1.7e309;
+      double decimalThree = 1.7e308;//max number
       System.out.println(decimalThree);
       
       
