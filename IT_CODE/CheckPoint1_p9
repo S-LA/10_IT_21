@@ -1,0 +1,37 @@
+CHECK POINT 1 pg.9
+------------------
+
+1) App - usually has a single use. 
+   Application - has a variety of uses.
+2) // single-line   /* something */ multi-line
+3) So you can remember what a funtion does.
+4) it matters whether words have uppercase or lowercase
+5.1) it imports the "it" package. and the * imports all classes inside it.
+5.2) * everything is imported (*-wildcard)
+6) ; (semi-colon) 
+7) Gogga slug = new Gogga();
+8) parameter (field)
+9) methods
+10) {-open and }-close 
+11) object.turnRight(); or object.trailOff();
+12) Change the class name, find the file in the explorer and change 
+      that as well. 
+13.1) End users uses the program
+      programmer makes the program
+13.2) IDE has code and text
+      windows the app or whater
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
