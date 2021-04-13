@@ -7,6 +7,7 @@ public class MakeSquare{
     * we can make objects and use methods to change
     * what the object does. 
     */
+    
     Gogga.setGridSize(15,20);
     // the .setGridSize is a static method. This means
     // it needs to be called before the object is created.
