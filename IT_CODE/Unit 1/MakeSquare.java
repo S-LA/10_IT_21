@@ -1,5 +1,6 @@
 import it.*;  // this includes the Gogga lib.
 import java.awt.*;
+import javax.swing.*;
 
 public class MakeSquare{
    public static void main(String[] args){
@@ -7,11 +8,14 @@ public class MakeSquare{
     * we can make objects and use methods to change
     * what the object does. 
     */
+    int width = Integer.parseInt(JOptionPane.showInputDialog("How wide?"));
     
     Gogga.setGridSize(15,20);
     // the .setGridSize is a static method. This means
     // it needs to be called before the object is created.
+    
     Gogga bug = new Gogga(2,5);
+    bug.setTrailWidth(width);
     bug.move();
     bug.move();
     bug.move();

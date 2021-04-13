@@ -7,7 +7,7 @@ public class PersonalDetails{
       String last = JOptionPane.showInputDialog("Surname");
       String tel = JOptionPane.showInputDialog("Phone");
       int yob = Integer.parseInt(JOptionPane.showInputDialog("YOB"));
-      double height = Double.parseDouble(JOptionPane.showInputDialog("Height"));;
+      double height = Double.parseDouble(JOptionPane.showInputDialog("Height"));
       
       System.out.println(); 
       System.out.println("PERSONAL DETAILS"); 
