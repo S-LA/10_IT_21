@@ -1,0 +1,59 @@
+|-----------------------|
+| CHECK POINT 2  pg.29  |
+|-----------------------|
+
+1.1) int, double, String, char
+1.2) whole numbers, real numbers, text, letter/symbols/digit
+
+2) 1.1, -5, "hello"
+
+3.1) Yes, it would produce an error.
+3.2) String str; || String str = ....;
+
+4) Check  CheckPoint_2_check;
+5) Allow flexabity, storing value, specifying types of data.
+   -> They allow diffifent types of data to be stored
+      and will be used in the code in a flexibilty way.
+6) JOptionPane.showInputDialog() -> javax.swing.JOptionPane();
+7) when a variable name is assigned to a data type with a value.
+   eg (String word = "56";)
+8) cant used symbols (except _)
+   class name -> Capital;
+   no number at start;
+   no dupicates;
+   no spaces;
+   no pre defined terms;
+   method name -> lowercase initial
+   camelCase
+   reflect what it does.
+   constants can be all CAPITAL;
+8.2.*
+1-> 1
+2-> 0 - does not follow convention
+3-> 0 - starts with number
+4-> 1 - 
+5-> 0 - space
+6-> 0 - space
+7-> 0 - does not follow convention
+8-> 0 - invalid symbol
+9-> 0 - invalid symbol
+10-> 0 - space
+11 -> 1
+12 -> 1
+13 -> 1
+14 -> 0 - cant have "."
+15 -> 0- number start
+16 -> 0 - quotation && space
+17 -> 1 
+18 -> 1
+19 -> 1 - but not nice :(
+20 -> 0 - space
+21 -> 1 - but :(
+22 -> 0 - full stops (at end)
+23 -> 0 - symbol
+24 -> 
+
+   
+   
+      
+      
