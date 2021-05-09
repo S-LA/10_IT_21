@@ -29,6 +29,9 @@ public class OverWrite{
       varA = 9;
       varA = varA + 4;
       System.out.println(varA);
+      final int x = 2;
+      
+      System.out.println(++x);
       
    }
 }
