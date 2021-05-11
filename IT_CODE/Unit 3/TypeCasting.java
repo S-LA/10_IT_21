@@ -59,5 +59,23 @@ public class TypeCasting{
       
       // string -> number [ObjectNumber.parseNum()]
       
+      String value = "65"; // take string
+      int value2 = Integer.parseInt(value); // convert to int
+      value2 = value2 + 20; // do math
+      value = Integer.toString(value2); // convert to string
+      System.out.println(value); // use the string
+      
+      // string -> char
+      String alpha = "abcdef";
+      char letter = alpha.charAt(0);
+      // dont worry about this stuff
+      char[] letterArray = alpha.toCharArray();
+      for(char i : letterArray){
+        System.out.println(i);
+      }
+      for(int i = 0; i < alpha.length(); i=i+2 ){
+        System.out.println(alpha.charAt(i));
+      }
+      
    }
 }
