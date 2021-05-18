@@ -40,10 +40,47 @@ Parts System Software
 			      share data.
 		- Process Management
 
-	1.4)	DRIVERS
-		- Drivers allow specific components 
-		  to talk to the PC.
-		- 
+2)	DRIVERS
+	- Drivers allow specific components 
+	  to talk to the PC.
+	- The control panel and task manager allow
+	  the user to manage the drivers.
+	- Drivers would do things like translate 
+	  mouse movements into screen positions
+	  or take a word document and encode the 
+          data for the printer to print.
+
+3) 	Programming Tools
+	-  These are anything that allow us to develop or create
+		programs or software.
+	-  Usually these tools are the form of an IDE (intergated developement
+		environment)
+	-  An IDE is seperate from "terminal" development where the text editor,
+	   compiling, running, and debugging are all different applications.
+
+	3.1) Source Code vs Executable Code.
+		- (src) original code written by a developer.
+			in java its the *.java files.
+		- (exe) this is the compiled version of the source code
+			in java its a *.class
+4) Utilities
+	4.1) Defrag - Disk Defragmentation - cleans and rearranges info 
+				on a hard disk.
+	4.2) File Compression - Useful when trying to save or send 
+				large files.
+
+
+5) Software Distribution and Licencing
+	-	Proprietary -> Need to pay for the software.
+	-		Need to abide by the EULA 
+				(End User Licence Agreement)
+	- Free and Open Source Licences.
+
+
+
+
+	
+
 		
 		
 			
