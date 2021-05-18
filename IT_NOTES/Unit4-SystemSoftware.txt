@@ -1,0 +1,71 @@
+------------------------
+ SYSTEM SOFTWARE  Pg.40
+------------------------
+	Theory
+------------------------
+Parts System Software
+1) OS - Operating System
+	-main software from which everything 
+	 runs.
+	- It contains the kernel.
+	- The kernel controls IO to CPU.
+	- THE OS PROVIDES
+		- USER INTERFACE
+		- LOAD and RUN PROGRAMS
+		- Manage computer resources.
+	
+	1.1) USER INTERFACE
+		- CLI - command line interface
+		- GUI - graphical user interface	
+		most operating systems use 
+		WIMP
+		Windows, Icons, Control and
+		 pull down menus.
+	
+	1.2) Load and Run Programs
+	1.3) Resource Management
+		- IO -> controls all inputs 
+			and outputs
+			In - mouse, keyboard
+			Out - Screens, sound
+			      printers.
+		- File Management
+			create, save open
+			move, delete files
+			and other file stuff.
+		- Memory Management
+			RAM - make sure enough space is
+			      allocated. 
+		  	      and two programs dont 
+			      share data.
+		- Process Management
+
+	1.4)	DRIVERS
+		- Drivers allow specific components 
+		  to talk to the PC.
+		- 
+		
+		
+			
+			 
+		
+
+			
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
