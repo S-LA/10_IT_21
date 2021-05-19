@@ -71,10 +71,28 @@ Parts System Software
 
 
 5) Software Distribution and Licencing
-	-	Proprietary -> Need to pay for the software.
-	-		Need to abide by the EULA 
+	5.1)	Proprietary -> Need to pay for the software.
+		-	Need to abide by the EULA 
 				(End User Licence Agreement)
-	- Free and Open Source Licences.
+		- Copyright laws apply and you can be criminally prosecuted
+		  if contravening these laws.
+
+	5.2) Free and Open Source Licences. (FOSS)
+		-  Open Source licences are refered to as copyleft.
+		-  An example of this is the GNU project (General Public Licence)
+		- Within open source licencing there are a few verison.
+
+		1) Creative Commons.
+			- Allow copyright to be kept, others may use your IP.
+			  (intellectual property) but must acknowledge your
+			  work.
+		2) Freeware
+			- Software is given away freely but cannot be resold.
+			- Source code is not provided, so you cannot alter the software.
+		3) Freemium 
+			- Basic versions of application is provided free.
+			- But some features are kept behind a paywall.
+			
 
 
 
