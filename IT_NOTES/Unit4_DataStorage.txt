@@ -1,0 +1,77 @@
+[DATA STORAGE] and Secondary Storage.
+------------------------------------
+
+Primary Memory    -  R.A.M    
+Secondary Storage -  Long term, persistent data.
+
+1) User Profiles
+	Each user on a PC will have their own 
+	set of files, permissions can be set
+	to allow or deny access to the files.
+
+2) Desktop
+	The initial window shown after login.
+	Usually has a taskbar and start button.
+	Can be used as a "physical" desktop.
+	
+	KEEP YOUR DESKTOP CLEAN
+	 
+	
+3) Files and Folders
+
+	File structure: The higest level of any PC is the 
+	"C:" drive
+	The address to find a specific folder is called the
+	PATH. 
+	C:\Users\kwhil\github\10_IT_21\IT_NOTES\Unit4_DataStorage.txt
+	
+4.5) Security Features.
+	2FA -> 2 factor autentication -> safer method
+	
+	Malware -> any harmful program 
+	-> virus -> spyware -> adware
+	
+	To combat this we use Anti-Malware
+	-> installing a anti-virus.
+	-> 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
