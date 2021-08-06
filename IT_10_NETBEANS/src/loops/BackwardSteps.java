@@ -13,7 +13,7 @@ import javax.swing.*;
  */
 public class BackwardSteps {
 
-	public static void main(String[] args) {
+	public static void notMain(String[] args) {
 		
 		int yMax = 20;
 		int xMax = 20;
