@@ -21,3 +21,6 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/IT_10_NETBEANS/nbproject/private/
+/IT_10_NETBEANS/build/
+/IT_10_NETBEANS/dist/
