@@ -21,11 +21,6 @@ public class ControlApp {
 
 	public static void main(String[] args){
 		
-		try {
-			ReadingTheFile.go(null);
-		} catch (FileNotFoundException ex) {
-			Logger.getLogger(ControlApp.class.getName()).log(Level.SEVERE, null, ex);
-		}
 		System.out.println("Type the words:");
 		Scanner scan = new Scanner(System.in);
 		String str = scan.nextLine();
@@ -42,8 +37,5 @@ public class ControlApp {
 		
 		scan.close();
 		scan2.close();
-		
-
-		
 	}
 }
