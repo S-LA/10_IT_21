@@ -14,4 +14,17 @@ public class MathsStuff {
 		String change = input.toUpperCase();
 		return change;
 	}
+	public static String makelower(String input){
+		String change = input.toLowerCase();
+		return change;
+	}
+
+	
+	
 }
+
+
+
+
+
+
