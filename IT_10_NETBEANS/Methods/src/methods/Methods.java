@@ -29,9 +29,9 @@ public class Methods {
 		int valB = sum(2,3,4);
 		
 		System.out.println("\tvalA\t\t" + valA);
-		printer("valA", valA);
+//		printer("valA", valA);
 		System.out.println("-->\t" + valB);
-		printer(valB);
+//		printer(valB);
 	}
 	/**
 	 * create two void methods called printer, one
