@@ -28,10 +28,10 @@ public class Methods {
 		int valA = sum(3,4);
 		int valB = sum(2,3,4);
 		
-		System.out.println("\tvalA\t\t" + valA);
-//		printer("valA", valA);
-		System.out.println("-->\t" + valB);
-//		printer(valB);
+//		System.out.println("\tvalA\t\t" + valA);
+		printer("valA", valA);
+//		System.out.println("-->\t" + valB);
+		printer(valB);
 	}
 	/**
 	 * create two void methods called printer, one
@@ -41,6 +41,13 @@ public class Methods {
 	 * and the second should format two parameters like...
 	 * "System.out.println("\tvalA\t\t" + valA);"
 	 */
+	
+	public static void printer(int inputA){
+		System.out.println("-->\t" + inputA);
+	}
+	public  static void printer(String inputA, int inputB){
+	 System.out.println("\t" + inputA + "\t\t" + inputB );
+	}
 	
 	
 	
