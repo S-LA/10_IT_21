@@ -51,8 +51,11 @@ public class OOP {
 		 * positive and the other in the negative direction.
 		 */
 		NumberLine numline = new NumberLine(5);
-//		numline.positive();
-//		numline.negative();
+		numline.positive();
+		numline.negative();
+		numline.positive();
+
+		
 		
 		
 	}
