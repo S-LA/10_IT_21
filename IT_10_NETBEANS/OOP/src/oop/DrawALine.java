@@ -22,10 +22,11 @@ public class DrawALine {
 	private String symbol = "";
 
 	// Constructors
+	// DrawALine line = new DrawALine(5);
 	public DrawALine(int len) {
 		lineLen = len;
 	}
-
+	// DrawALine line = new DrawALine("#", 5);
 	public DrawALine(String sym, int len) {
 		symbol = sym;
 		lineLen = len;
@@ -46,5 +47,6 @@ public class DrawALine {
 		}
 		System.out.print("\n");
 	}
+
 
 }

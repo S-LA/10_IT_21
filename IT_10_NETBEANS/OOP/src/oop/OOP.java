@@ -50,13 +50,23 @@ public class OOP {
 		 * declaration. And then make two methods, one will print in the 
 		 * positive and the other in the negative direction.
 		 */
+		
+		/*
 		NumberLine numline = new NumberLine(5);
 		numline.positive();
 		numline.negative();
 		numline.positive();
+		*/
+		/*
+		CreateALine.make(2);
+		CreateALine.makeSwitch(2);
+		*/
+//		LetterGrade.run();
+		
+//		MoreSwtiches.run();
 
-		
-		
+//		BigNumbers.run();
+		BoolEx.run();
 		
 	}
 
