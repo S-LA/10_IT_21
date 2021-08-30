@@ -63,10 +63,10 @@ public class OOP {
 		*/
 //		LetterGrade.run();
 		
-//		MoreSwtiches.run();
+		MoreSwtiches.run();
 
 //		BigNumbers.run();
-		BoolEx.run();
+//		BoolEx.run();
 		
 	}
 

@@ -1,0 +1,15 @@
+Term Three Prac
+03/08/2021
+
+-> The Java Programming Language
+	-> Data Types and conversions
+		between them.
+	-> Convert a flow diagram
+		into code.
+	-> For loops(pg.83-101)
+	-> while & do while(171-192)
+	-> ifs (elseif) (else)(118-145)
+	-> and switch statements(147-168)
+*** NO OBJECT CREATION.(but can import)
+*** BUT WILL NEED TO MAKE METHODS
+-> Scanner & Random

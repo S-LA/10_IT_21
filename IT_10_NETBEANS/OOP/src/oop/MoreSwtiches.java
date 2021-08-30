@@ -18,13 +18,13 @@ public class MoreSwtiches {
 		 * 	- your cannot use double
 		 */
 		
-//		int val = 6;
-		double val = 3.4;	
-//		String word = "word";
-//		switch(val){
-//			case 3%val: 
-//				System.out.println("jeff");
-//		}
+		int val = 6;
+//		double val = 3.4;	
+		String word = "word";
+		switch(val){
+			case 6: 
+				System.out.println("jeff");
+		}
 		
 		double val2 = 3.4;
 		// you should never compare doubles in a if
