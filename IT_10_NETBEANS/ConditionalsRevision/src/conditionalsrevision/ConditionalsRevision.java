@@ -5,6 +5,7 @@
  */
 package conditionalsrevision;
 
+import ifs.AnotherIF;
 import ifs.MultipleConditions;
 
 /**
@@ -18,7 +19,17 @@ public class ConditionalsRevision {
 	 */
 	public static void main(String[] args) {
 		// TODO code application logic here
-		MultipleConditions.basics();
+//		MultipleConditions.basics();
+//		EvenFor.consolePrint(20);
+//		EvenFor.anotherPrint(20);
+
+	
+		
+		int answer =	AnotherIF.runthismethod(2);
+		if(answer == 122){
+			System.out.println("it works");
+		}
+		
 	}
 	
 }
