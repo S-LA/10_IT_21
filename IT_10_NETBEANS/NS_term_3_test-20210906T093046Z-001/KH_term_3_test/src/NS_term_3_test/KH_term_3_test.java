@@ -10,6 +10,7 @@ package NS_term_3_test;
 //import question_1.Generationator;
 import question_1.Generationator;
 import question_2.AlphabetPrintFix;
+import question_3.GuessTheNumber;
 
 /**
  *
@@ -23,7 +24,7 @@ public class KH_term_3_test {
 	/**
 	 * QUESTION 1
 	 */
-	Generationator.fromAge(Generationator.testage);
+//	Generationator.fromAge(Generationator.testage);
 	
 	/**
 	 * QUESTION 2
@@ -33,7 +34,7 @@ public class KH_term_3_test {
 	/** 
 	 * GUESS THE NUMBER
 	 */	
-//	GuessTheNumber.run();
+	GuessTheNumber.run();
 		
 
 	}	
