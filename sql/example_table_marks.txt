@@ -1,0 +1,9 @@
+
+
+SCHEMA: ten_marks
+TABLE: it_marks
+
+id	init	surname	mark1	mark2	mark3	average
+1	A	John	50	null	null	null	
+2	B	Kia	75	null	null	null	
+3	C	Steff	25	null	null	null	
