@@ -1,0 +1,1 @@
+insert into studentlist (dob) values ('2001-11-23');
