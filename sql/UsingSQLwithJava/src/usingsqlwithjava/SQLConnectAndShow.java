@@ -6,16 +6,17 @@
 package usingsqlwithjava;
 
 import java.sql.*;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.swing.JOptionPane;
+//import java.util.logging.Level;
+//import java.util.logging.Logger;
+//import javax.swing.JOptionPane;
 
 /**
  *
  *
  * @author kwhil
  */
-public class SQLConnectAndShow {
+public class SQLConnectAndShow
+{
 
 	public static void main(String[] args) throws ClassNotFoundException {
 		// try surrounds the entire thing to not stop the program from running the catch part
@@ -62,7 +63,9 @@ public class SQLConnectAndShow {
 						// the ResultSet places each line in an array type this accessed with  
 						// rs.getString(index)
 						for (int i = 0; i < columnsNumber; i++) {
+//							if (rs.getString(i + 1) != null) {
 							System.out.print(rs.getString(i + 1) + "\t");
+//							}
 						}
 						System.out.println();
 						// just the inner catch for each line()
@@ -70,22 +73,20 @@ public class SQLConnectAndShow {
 						System.out.println();
 					}
 				}
-				// try catch looks if there is an issue in the SQL and mitigates the issue.
-				try {
-					// the ResultSet places each line in an array type this accessed with  
-					// rs.getString(index)
-					for (int i = 0; i < columnsNumber; i++) {
-						System.out.print(rs.getString(i + 1) + "\t");
-					}
-					System.out.println();
-					// just the inner catch for each line()
-				} catch (SQLException ex) {
-					System.out.println();
-				}
 
 				/**
-				 *
+				 * INSERT VALUES
 				 */
+				Statement insertstmt = con.createStatement();
+				String insert = "insert into it_marks"
+					+ "(id,init,surname,mark1) "
+					+ "values (6, 'F','', '44')";
+				insertstmt.executeUpdate(insert);
+				System.out.println("UPDATEDTABLE");
+				
+				Statement printstmt = con.createStatement();
+				
+
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			System.out.println(e);
