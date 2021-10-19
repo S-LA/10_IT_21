@@ -78,14 +78,30 @@ public class SQLConnectAndShow
 				 * INSERT VALUES
 				 */
 				Statement insertstmt = con.createStatement();
-				String insert = "insert into it_marks"
-					+ "(id,init,surname,mark1) "
-					+ "values (6, 'F','', '44')";
+				String insert = "insert into it_marks(id,init,surname,mark1) values (8, 'H','', '59')";
 				insertstmt.executeUpdate(insert);
 				System.out.println("UPDATEDTABLE");
 				
+				System.out.println("START NEW PRINT OUT");				
 				Statement printstmt = con.createStatement();
-				
+				String statementPrint = "select * from it_marks";
+				ResultSet printrs = printstmt.executeQuery(statementPrint);
+
+				ResultSetMetaData printrsmd = printrs.getMetaData();
+				int printcolumnsNumber = printrsmd.getColumnCount();
+
+				while (printrs.next()) {
+					try {
+						for (int i = 0; i < printcolumnsNumber; i++) {
+							System.out.print(printrs.getString(i + 1) + "\t");
+						}
+						System.out.println();
+					} catch (SQLException ex) {
+						System.out.println();
+					}
+				}
+
+
 
 			}
 		} catch (ClassNotFoundException | SQLException e) {
