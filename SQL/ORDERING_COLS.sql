@@ -1,0 +1,1 @@
+Select * from it_marks order by surname asc;

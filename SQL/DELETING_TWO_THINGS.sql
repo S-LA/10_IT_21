@@ -1,0 +1,1 @@
+delete from it_marks where id=6 and id=8;

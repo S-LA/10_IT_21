@@ -81,8 +81,8 @@ public class SQLConnectAndShow
 				String insert = "insert into it_marks(id,init,surname,mark1) values (8, 'H','', '59')";
 				insertstmt.executeUpdate(insert);
 				System.out.println("UPDATEDTABLE");
-				
-				System.out.println("START NEW PRINT OUT");				
+
+				System.out.println("START NEW PRINT OUT");
 				Statement printstmt = con.createStatement();
 				String statementPrint = "select * from it_marks";
 				ResultSet printrs = printstmt.executeQuery(statementPrint);
@@ -100,9 +100,6 @@ public class SQLConnectAndShow
 						System.out.println();
 					}
 				}
-
-
-
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			System.out.println(e);
